@@ -2,6 +2,7 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:finalproject/babyandmom.dart';
 import 'package:finalproject/card.dart';
 import 'package:finalproject/cosmetics.dart';
+import 'package:finalproject/dialy%20essentials.dart';
 import 'package:finalproject/diet&fitness.dart';
 import 'package:finalproject/favorite.dart';
 import 'package:finalproject/haircare.dart';
@@ -223,10 +224,12 @@ class _homeState extends State<home> {
                         ),
                       ),
                       MaterialButton(
-                        onPressed: () {Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => cosmetics()));},
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => cosmetics()));
+                        },
                         child: Container(
                           height: 100,
                           width: 100,
@@ -285,7 +288,12 @@ class _homeState extends State<home> {
                         ),
                       ),
                       MaterialButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => dailyessentials()));
+                        },
                         child: Container(
                           height: 100,
                           width: 100,
